@@ -14,5 +14,6 @@
 */
 function getCharAt(str, position) {
     return str[position];
+
 }
-getCharAt("salut", 0);
+console.log(getCharAt("salut", 0));

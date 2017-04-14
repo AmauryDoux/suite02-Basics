@@ -15,3 +15,12 @@
         editArrayAt(arr, 2, "va?"); // ["bonjour", "ça", "va?"]
 
 */
+var arr = ["bonjour", 5, 2];
+
+function editArrayAt(arr, position, value) {
+    //this gets arry position and applies the value
+    arr[position] = value;
+    //returns the varriable arr
+    //return arr;
+
+}
