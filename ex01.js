@@ -16,4 +16,3 @@ function getCharAt(str, position) {
     return str[position];
 
 }
-console.log(getCharAt("salut", 0));
