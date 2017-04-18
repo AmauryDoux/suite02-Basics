@@ -13,3 +13,18 @@
         editStringAt("toto", 3, "a"); // "tota";
 
 */
+
+function editStringAt(str, position, char) {
+    //var arr = ["toto",0,"a"];
+    var len = str.length;
+    var str2 = ""
+    for (var i = 0; i < len; i++) {
+        if (i === position) {
+            str2 = str2 + char;
+
+        } else {
+            str2 = str2 + str[i]
+        }
+    }
+    return str2;
+}
